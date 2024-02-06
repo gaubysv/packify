@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: packify
+  datasource:
+    url: jdbc:h2:mem:packify
+    username:
+    password:
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    defer-datasource-initialization: true
+    open-in-view: false

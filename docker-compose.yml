@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  packify:
+    image: packify
+    container_name: "packify"
+    ports:
+      - 8080:8080
